@@ -53,4 +53,4 @@ The installer is not code-signed yet, so Windows may show "Windows protected you
 
 Questions or problems: reply to your license email or write to hcamposoliveira@gmail.com.
 
-Current version: 3.3
+Current version: 3.4
