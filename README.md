@@ -28,13 +28,17 @@ Already bought? Click **I have a license key** in the panel and paste the key fr
 
 ## Plans
 
+Yearly plans cost 10 months and run for 12. Studio plans include 20% (5 seats) or 30% (10 seats) off per seat.
+
 | Plan | Computers | Monthly | Yearly |
 |------|-----------|---------|--------|
-| Individual | 1 | [R$ 79](https://pay.kiwify.com.br/UG9NLC5) | [R$ 590](https://pay.kiwify.com.br/i6PRqRg) |
-| Studio 5 | 5 | [R$ 370](https://pay.kiwify.com.br/pbRm9Vg) | [R$ 3.500](https://pay.kiwify.com.br/vmENSq5) |
-| Studio 10 | 10 | [R$ 520](https://pay.kiwify.com.br/7McDPhk) | [R$ 6.500](https://pay.kiwify.com.br/lf66GFp) |
+| Individual | 1 | [US$ 49](https://pay.kiwify.com.br/SFBOF2N) | [US$ 490](https://pay.kiwify.com.br/42IdkCr) |
+| Studio 5 | 5 | [US$ 196](https://pay.kiwify.com.br/LdUpCVX) | [US$ 1,960](https://pay.kiwify.com.br/UGVSypQ) |
+| Studio 10 | 10 | [US$ 343](https://pay.kiwify.com.br/uz1Dmkx) | [US$ 3,430](https://pay.kiwify.com.br/po7gzIg) |
 
-Prices in Brazilian reais (BRL). International cards are converted automatically at checkout.
+Checkout by Kiwify. You are charged the equivalent amount in Brazilian reais (BRL) and your bank converts it automatically.
+
+**No Brasil:** Individual [R$ 180/mês](https://pay.kiwify.com.br/1cSfgU6) ou [R$ 1.800/ano](https://pay.kiwify.com.br/ipvfmZx) · Studio 5 [R$ 720/mês](https://pay.kiwify.com.br/erd8dM5) ou [R$ 7.200/ano](https://pay.kiwify.com.br/9SIURyQ) · Studio 10 [R$ 1.260/mês](https://pay.kiwify.com.br/tuuJcsN) ou [R$ 12.600/ano](https://pay.kiwify.com.br/72HzYHp).
 
 ## Requirements
 
