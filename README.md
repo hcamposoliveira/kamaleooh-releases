@@ -4,7 +4,7 @@
 
 A 15-second film signed off in 16:9 turns into a story, a feed post, a street panel, a building wrap and a dozen screens nobody planned for. KamaleOOH adapts your animated master to any aspect ratio inside After Effects, with no layout rebuild and no repositioning layer by layer.
 
-**[Read the guide](https://hcamposoliveira.github.io/kamaleooh-releases/)** · **[Get a license](https://kiwify.app/FuUBgdp)**
+**[Read the guide](https://hcamposoliveira.github.io/kamaleooh-releases/)** · **[See plans and pricing](https://hcamposoliveira.github.io/kamaleooh-releases/#pricing)**
 
 ## Download
 
@@ -25,6 +25,16 @@ Already bought? Click **I have a license key** in the panel and paste the key fr
 - Builds a whole campaign in one batch from a CSV of formats.
 - Keeps timing, keyframes, effects, blending modes, parents and track mattes.
 - Lets you tag layers as anchored, dynamic or static so each one behaves the right way.
+
+## Plans
+
+| Plan | Computers | Monthly | Yearly |
+|------|-----------|---------|--------|
+| Individual | 1 | [R$ 79](https://pay.kiwify.com.br/UG9NLC5) | [R$ 590](https://pay.kiwify.com.br/i6PRqRg) |
+| Studio 5 | 5 | [R$ 370](https://pay.kiwify.com.br/pbRm9Vg) | [R$ 3.500](https://pay.kiwify.com.br/vmENSq5) |
+| Studio 10 | 10 | [R$ 520](https://pay.kiwify.com.br/7McDPhk) | [R$ 6.500](https://pay.kiwify.com.br/lf66GFp) |
+
+Prices in Brazilian reais (BRL). International cards are converted automatically at checkout.
 
 ## Requirements
 

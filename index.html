@@ -82,6 +82,29 @@
   .hero p.cta-note { font-size: 13px; color: #7E8874; margin-top: 12px; max-width: 64ch; }
   .hero a:focus-visible { outline: 2px solid #B8E88A; outline-offset: 3px; }
 
+  /* Planos */
+  .pricing { padding: 56px 24px 8px; }
+  .pricing-in { max-width: 1072px; margin: 0 auto; }
+  .pricing h2 { margin-top: 0; }
+  .pricing span[data-lang] { display: none; }
+  .pricing span[data-lang].on { display: inline; }
+  .pricing-sub { color: var(--muted); margin-top: 8px; }
+  .plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 24px; }
+  .plan { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+  .plan h3 { margin: 0; font-size: 19px; }
+  .plan-seats { color: var(--muted); font-size: 14px; margin-top: -6px; }
+  .plan-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding-top: 12px; border-top: 1px solid var(--rule); }
+  .plan-price { font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .plan-per { color: var(--muted); font-size: 13px; }
+  .plan-btn { background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; font-size: 14px; padding: 8px 14px; border-radius: 6px; white-space: nowrap; }
+  .plan-btn:hover { background: var(--accent-2); }
+  .plan-btn-2 { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+  .plan-btn-2:hover { background: var(--accent-bg); }
+  :root[data-theme="dark"] .plan-btn { color: #101209; }
+  :root[data-theme="dark"] .plan-btn-2 { color: var(--accent); }
+  .plan-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .pricing-note { color: var(--faint); font-size: 13px; margin-top: 16px; }
+
   /* Language switch */
   .lang { position: absolute; top: 0; right: 0; display: flex; gap: 0; }
   .lang button {
@@ -214,12 +237,58 @@
     <div class="cta">
       <a class="cta-main" href="https://github.com/hcamposoliveira/kamaleooh-releases/raw/main/KamaleOOH_Editors_Mac.pkg"><span data-lang="pt">Baixar para macOS</span><span data-lang="en" class="on">Download for macOS</span></a>
       <a class="cta-main" href="https://github.com/hcamposoliveira/kamaleooh-releases/raw/main/KamaleOOH_Editor_Windows.exe"><span data-lang="pt">Baixar para Windows</span><span data-lang="en" class="on">Download for Windows</span></a>
-      <a class="cta-buy" href="https://kiwify.app/FuUBgdp" target="_blank" rel="noopener"><span data-lang="pt">Comprar licença</span><span data-lang="en" class="on">Get a license</span></a>
+      <a class="cta-buy" href="#pricing"><span data-lang="pt">Comprar licença</span><span data-lang="en" class="on">Get a license</span></a>
     </div>
     <p class="cta-note" data-lang="pt">7 dias grátis. No Windows, se aparecer "O Windows protegeu o computador", clique em Mais informações e depois em Executar assim mesmo.</p>
     <p class="cta-note on" data-lang="en">7-day free trial. On Windows, if you see "Windows protected your PC", click More info, then Run anyway.</p>
   </div>
 </div>
+
+<section id="pricing" class="pricing" aria-labelledby="pricing-h">
+  <div class="pricing-in">
+    <h2 id="pricing-h"><span data-lang="pt">Planos</span><span data-lang="en" class="on">Pricing</span></h2>
+    <p class="pricing-sub"><span data-lang="pt">Comece pelo trial de 7 dias. A chave chega por email logo após a compra.</span><span data-lang="en" class="on">Start with the 7-day trial. Your key arrives by email right after purchase.</span></p>
+    <div class="plans">
+    <div class="plan">
+      <h3><span data-lang="pt">Individual</span><span data-lang="en" class="on">Individual</span></h3>
+      <p class="plan-seats"><span data-lang="pt">1 computador</span><span data-lang="en" class="on">1 computer</span></p>
+      <div class="plan-row">
+        <div><span class="plan-price">R$ 79</span> <span class="plan-per"><span data-lang="pt">por mês</span><span data-lang="en" class="on">per month</span></span></div>
+        <a class="plan-btn" href="https://pay.kiwify.com.br/UG9NLC5" target="_blank" rel="noopener"><span data-lang="pt">Assinar mensal</span><span data-lang="en" class="on">Buy monthly</span></a>
+      </div>
+      <div class="plan-row">
+        <div><span class="plan-price">R$ 590</span> <span class="plan-per"><span data-lang="pt">por ano</span><span data-lang="en" class="on">per year</span></span></div>
+        <a class="plan-btn plan-btn-2" href="https://pay.kiwify.com.br/i6PRqRg" target="_blank" rel="noopener"><span data-lang="pt">Assinar anual</span><span data-lang="en" class="on">Buy yearly</span></a>
+      </div>
+    </div>
+    <div class="plan">
+      <h3><span data-lang="pt">Studio 5</span><span data-lang="en" class="on">Studio 5</span></h3>
+      <p class="plan-seats"><span data-lang="pt">5 computadores</span><span data-lang="en" class="on">5 computers</span></p>
+      <div class="plan-row">
+        <div><span class="plan-price">R$ 370</span> <span class="plan-per"><span data-lang="pt">por mês</span><span data-lang="en" class="on">per month</span></span></div>
+        <a class="plan-btn" href="https://pay.kiwify.com.br/pbRm9Vg" target="_blank" rel="noopener"><span data-lang="pt">Assinar mensal</span><span data-lang="en" class="on">Buy monthly</span></a>
+      </div>
+      <div class="plan-row">
+        <div><span class="plan-price">R$ 3.500</span> <span class="plan-per"><span data-lang="pt">por ano</span><span data-lang="en" class="on">per year</span></span></div>
+        <a class="plan-btn plan-btn-2" href="https://pay.kiwify.com.br/vmENSq5" target="_blank" rel="noopener"><span data-lang="pt">Assinar anual</span><span data-lang="en" class="on">Buy yearly</span></a>
+      </div>
+    </div>
+    <div class="plan">
+      <h3><span data-lang="pt">Studio 10</span><span data-lang="en" class="on">Studio 10</span></h3>
+      <p class="plan-seats"><span data-lang="pt">10 computadores</span><span data-lang="en" class="on">10 computers</span></p>
+      <div class="plan-row">
+        <div><span class="plan-price">R$ 520</span> <span class="plan-per"><span data-lang="pt">por mês</span><span data-lang="en" class="on">per month</span></span></div>
+        <a class="plan-btn" href="https://pay.kiwify.com.br/7McDPhk" target="_blank" rel="noopener"><span data-lang="pt">Assinar mensal</span><span data-lang="en" class="on">Buy monthly</span></a>
+      </div>
+      <div class="plan-row">
+        <div><span class="plan-price">R$ 6.500</span> <span class="plan-per"><span data-lang="pt">por ano</span><span data-lang="en" class="on">per year</span></span></div>
+        <a class="plan-btn plan-btn-2" href="https://pay.kiwify.com.br/lf66GFp" target="_blank" rel="noopener"><span data-lang="pt">Assinar anual</span><span data-lang="en" class="on">Buy yearly</span></a>
+      </div>
+    </div>
+    </div>
+    <p class="pricing-note"><span data-lang="pt">Preços em reais. Pagamento pela Kiwify, com cartão, Pix ou boleto.</span><span data-lang="en" class="on">Prices in Brazilian reais (BRL). Checkout by Kiwify; international cards are converted automatically.</span></p>
+  </div>
+</section>
 
 <div class="wrap"><div class="cols">
 
